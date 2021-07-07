@@ -1,6 +1,7 @@
 package com.example.shell_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+import java.lang.reflect.Method;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -64,8 +65,6 @@ public class MainActivity extends AppCompatActivity {
                     output.append(line + "\n");
                 }
             }
-
-
 
         } catch (Exception e) {
             e.printStackTrace();
